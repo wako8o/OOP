@@ -31,4 +31,4 @@ OOP is used for:
 - Reusability through inheritance.
 - Easy maintenance and extension.
 
----
+>>>>>>> 2df31412a5f034ed73d0fd3868069e5008eaf21e
