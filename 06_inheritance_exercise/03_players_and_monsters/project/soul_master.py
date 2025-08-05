@@ -1,5 +1,5 @@
 from project.dark_wizard import DarkWizard
 
 
-class SouMaster(DarkWizard):
+class SoulMaster(DarkWizard):
     pass
