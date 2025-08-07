@@ -12,9 +12,9 @@ class ProductRepository:
         self.products.append(product)
 
     def find(self, product_name: str):
-        for pro in self.products:
-            if pro.name == product_name:
-                return pro
+        name = next((pro for pro in self.products if pro.name == product_name), None)
+        if name:
+            return name
 
     def remove(self, product_name: str):
         remove_product = self.find(product_name)
