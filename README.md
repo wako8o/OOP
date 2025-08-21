@@ -22,7 +22,7 @@ A single interface for different forms of implementation.
 
 *Example:* Method `speak()`, returning different results for `Dog` and `Bird`.
 
-4. **Abstraction** ->
+### 4. **Abstraction** ->
 
 Hiding the complex implementation and showing only the essential features.
 
