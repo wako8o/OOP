@@ -20,17 +20,19 @@ Creating new classes that inherit characteristics from existing (parent) classes
 *Example:* Child class `Cat`, inheriting from `Animal`.
 
 ---
-### 3. **Polymorphism**
+### 3. **Polymorphism** - Abstraction ->
+
 A single interface for different forms of implementation.
 
 *Example:* Method `speak()`, returning different results for `Dog` and `Bird`.
 
 ---
-### 4. **Abstraction** ->
-
 Hiding the complex implementation and showing only the essential features.
 
 *Example:* Abstract class `Shape` with method `calculate_area()`.
+
+---
+### 4. **Static** -> https://github.com/wako8o/OOP/tree/main/09_static_and_class_methods_lab
 
 ---
 
