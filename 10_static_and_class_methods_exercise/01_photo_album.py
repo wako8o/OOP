@@ -2,7 +2,7 @@ import math
 
 
 class PhotoAlbum:
-
+    PAGE_SIZE = 4
     def __init__(self, pages):
         self.pages = pages
         self.photos = [[] for _ in range(pages)]
@@ -11,7 +11,7 @@ class PhotoAlbum:
     def from_photos_count(cls, photos_count):
         '''Mathematical rounding when dividing by 4.
             Takes the upper integer.'''
-        pages = math.ceil(photos_count / 4)
+        pages = math.ceil(photos_count / cls.PAGE_SIZE)
         return cls(pages)
 
     def add_photo(self, label: str):
