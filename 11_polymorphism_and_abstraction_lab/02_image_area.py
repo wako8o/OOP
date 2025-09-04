@@ -4,7 +4,6 @@ class ImageArea:
         self.width = width
         self.height = height
 
-
     def get_area(self):
         return self.width * self.height
 
@@ -32,11 +31,6 @@ class ImageArea:
     def __ge__(self, other):
         if isinstance(other, ImageArea):
             return self.get_area() > other.get_area()
-        return NotImplemented
-
-    def __ge__(self, other):
-        if isinstance(other, ImageArea):
-            return self.get_area() >= other.get_area()
         return NotImplemented
 
 a1 = ImageArea(7, 10)
