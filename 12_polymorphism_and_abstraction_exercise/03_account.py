@@ -25,7 +25,8 @@ class Account:
         if not isinstance(amount, int):
             raise ValueError("please use int for amount")
 
-        return self._transactions.append(amount)
+        return self.handle_transaction(amount)
+
 
     def __repr__(self):
         return f"Account({self.owner}, {self.amount})"
@@ -61,13 +62,16 @@ class Account:
         return reversed(self._transactions)
 
     def __add__(self, other):
+        # We check if the station is of this class
+        if not isinstance(other, Account):
+            raise TypeError("Can only add Account instances")
+
         new_account = Account(f"{self.owner}&{other.owner}", self.amount + other.amount)
         new_account._transactions = self._transactions + other._transactions
         return new_account
 
 acc = Account('bob', 10)
 acc2 = Account('john')
-# print(dir(acc))
 print(acc)
 print(repr(acc))
 acc.add_transaction(20)
