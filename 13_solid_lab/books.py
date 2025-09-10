@@ -14,15 +14,6 @@ class Book:
             raise ValueError('The book must be more than 20 pages!')
         self.__page = value
 
-    def __eq__(self, other):
-        if isinstance(other, Book):
-            return (self.title == other.title and
-                    self.author == other.author)
-        return False
-
-    def __hash__(self):
-        return hash((self.title, self.author))
-
     def __repr__(self):
 
         return f"Title: {self.title}, Author: {self.author}, Page: {self.page}."
