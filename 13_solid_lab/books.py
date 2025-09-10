@@ -1,4 +1,7 @@
 class Book:
+
+    MIN_PAGES = 20
+
     def __init__(self, title, author, page):
         self.title = title
         self.author = author
@@ -10,7 +13,7 @@ class Book:
 
     @page.setter
     def page(self, value):
-        if value < 20:
+        if value < Book.MIN_PAGES:
             raise ValueError('The book must be more than 20 pages!')
         self.__page = value
 
