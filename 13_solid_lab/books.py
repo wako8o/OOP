@@ -21,8 +21,8 @@ class Book:
 
 
 class Library:
-    def __init__(self, books: list[Book] | None = None):
-        self.books = books if books is not None else []
+    def __init__(self, books: list[Book]):
+        self.books = books
 
     def find_book(self, title: str) -> Book | None:
         return next((book for book in self.books if book.title == title), None)
