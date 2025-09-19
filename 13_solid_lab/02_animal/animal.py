@@ -27,6 +27,5 @@ def animal_sound(animals: list):
 
         print(animal.make_sound())
 
-
 animals = [Cat(), Dog(), Chicken()]
 animal_sound(animals)
