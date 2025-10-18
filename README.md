@@ -45,4 +45,3 @@ OOP is used for:
 - Reusability through inheritance.
 - Easy maintenance and extension.
 
-
