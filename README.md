@@ -1,8 +1,3 @@
-
-# Django
-
-A Django starter template as per the docs: [Django](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
-=======
 # Object-Oriented Programming (OOP)
 
 A quick guide to the basic principles of OOP with clear explanations and examples.
