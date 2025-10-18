@@ -44,4 +44,3 @@ OOP is used for:
 - Better code organization.
 - Reusability through inheritance.
 - Easy maintenance and extension.
-.
