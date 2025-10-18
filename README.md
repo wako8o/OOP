@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Django
 
 A Django starter template as per the docs: [Django](https://docs.djangoproject.com/en/5.0/intro/tutorial01/)
@@ -49,5 +49,5 @@ OOP is used for:
 - Better code organization.
 - Reusability through inheritance.
 - Easy maintenance and extension.
->>>>>>> 8f79c31365feb42755049ad42f89a098ad474218
+
 
