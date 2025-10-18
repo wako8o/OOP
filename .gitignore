@@ -1,3 +1,4 @@
+=
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+>>>>>>> 8f79c31365feb42755049ad42f89a098ad474218

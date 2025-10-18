@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+# Django
+
+A Django starter template as per the docs: https://docs.djangoproject.com/en/5.0/intro/tutorial01/
+=======
 # Object-Oriented Programming (OOP)
 
 A quick guide to the basic principles of OOP with clear explanations and examples.
@@ -44,4 +49,5 @@ OOP is used for:
 - Better code organization.
 - Reusability through inheritance.
 - Easy maintenance and extension.
+>>>>>>> 8f79c31365feb42755049ad42f89a098ad474218
 
